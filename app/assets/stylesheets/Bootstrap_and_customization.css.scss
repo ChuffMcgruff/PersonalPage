@@ -1,15 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-$body-bg:    #95a5a6;
+$body-bg:    #ecf0f1;
 $font-family-sans-serif: 'Lato';
-$navbar-default-bg: #95a5a6;
+$navbar-default-bg: #2980b9;
 $navbar-default-link-color: #ecf0f1;
-$navbar-inverse-bg: #ecf0f1;
-$jumbotron-bg: #bdc3c7;
+$navbar-inverse-bg: #2980b9;
+$jumbotron-bg: #2980b9;
 @import 'bootstrap';
 
 .center {
-	text-align: center;
-	vertical-align: middle;
-	}
-
+	text-align: center 
+}
+.container {
+     vertical-align: middle }
