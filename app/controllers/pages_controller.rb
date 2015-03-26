@@ -3,8 +3,6 @@ class PagesController < ApplicationController
   end
   def CV
   end
-  def About 
-  end
   def Academics
   end
   def Bio
