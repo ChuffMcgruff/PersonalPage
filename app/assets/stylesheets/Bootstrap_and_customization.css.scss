@@ -1,22 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-$body-bg:    #82B1C2;
 $font-family-sans-serif: 'Lato';
-$navbar-default-bg: #2980b9;
+$navbar-default-bg: #156E36;
 $navbar-default-link-color: #ecf0f1;
 $navbar-inverse-bg: #2980b9;
-$jumbotron-bg: rgba(150,214,193,0.7);
+$jumbotron-bg: rgba(65,61,61,0.7);
 @import 'bootstrap';
 
-.body {
-	background-image: url(http://www.imgbase.info/images/safe-wallpapers/miscellaneous/computer/35121_computer_motherboard.jpg)
+body { 
+  background: url(http://wallpoper.com/images/00/25/92/62/green-lights_00259262.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%
 }
+
 
 .center {
 	text-align: center 
 }
 .vertical {
-     vertical-align: middle
+ 	vertical-align: middle
  }
 
 .headers {
@@ -24,6 +29,57 @@ $jumbotron-bg: rgba(150,214,193,0.7);
 }
 
 .jumbotron {
+	margin: 50px;
 	border-radius: 15px;
+	background: rgba(52,73,94,0.5);
+	border: 3px solid #156E36;
 
 }
+
+.heading {
+	background: rgba(52,73,94,0.5);
+	padding: 15px;
+	margin: 250px;
+	border: 3px solid #156E36;
+	border-radius: 15px;
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+
+}
+
+.wrapper {
+	color: white;
+	width: 1300px;
+  margin: 10px;
+  background: rgba(52,73,94,0.5);
+  padding: 15px;
+  border-radius: 20px;
+  border: 3px solid #156E36;
+}
+
+.carousel {
+background: black;
+}
+
+.text-muted {
+	color: rgb(189, 195, 199);
+}
+
+.panel {
+	margin: 150px;
+	background: rgba(52,73,94,0.5);
+	border: 3px solid #156E36;
+	}
+
+.modal-body {
+    max-height: none;
+    max-width: none;
+}
+.modal-dialog {
+       max-width: none;
+       max-height: none;
+    }
+.modal-header {
+        padding: 3px 15px 0 15px;
+    }
